@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Xiaohan Zou's portfolio in macOS style."
-    />
-
+    <meta name="description" content="Xiaohan Zou's portfolio in macOS style." />
+    
+    <!-- Favicon and Apple Touch Icon -->
     <link rel="icon" href="/logo/favicon.svg" />
     <link rel="apple-touch-icon" href="/logo/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    
+    <!-- Web App Manifest -->
     <link rel="manifest" href="/manifest.json" />
-
+    
+    <!-- Page Title -->
     <title>Xiaohan Zou's Portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/index.tsx"></script>
-    <p>Welcom onboard
-  <ul>
-    <li>please describe your taste </li>
-    <li>are yo enjoying</li>
-  </ul>
-  </p>
-  <p>Easy examples
-  <ol>
-    <li>MAC OS</li>
-    <li>WINDOWS</li>
-  </ol>
-  </p>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome aboard</h1>
+        <p>
+            Xiaohan Zou's Portfolio in macOS style.
+            Please describe your taste and let us know if you are enjoying it.
+        </p>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h2>Easy Examples</h2>
+            <p>Explore examples of different operating systems:</p>
+            <ul>
+                <li>MAC OS</li>
+                <li>Windows</li>
+            </ul>
+        </section>
+    </main>
 
+    <!-- Google Analytics Script -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DSL4Z03NFE"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      gtag("js", new Date());
-      gtag("config", "G-DSL4Z03NFE");
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag("js", new Date());
+        gtag("config", "G-DSL4Z03NFE");
     </script>
-  </body>
+</body>
 </html>
